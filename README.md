@@ -81,6 +81,3 @@ To build a reliable deep learning model for early detection of pneumonia from me
 - Use EfficientNet / ensemble models  
 - Add explainability (Grad-CAM)  
 
-
-## 📬 Contact
-- LinkedIn: https://www.linkedin.com/in/ayushman-singh-444902283/
