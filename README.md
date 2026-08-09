@@ -1,33 +1,39 @@
 # 🩺 Pneumonia Detection using Transfer Learning (CNN)
 
-## 📌 Overview
-This project implements a deep learning pipeline to detect pneumonia from chest X-ray images using Convolutional Neural Networks and transfer learning.
+A deep learning-based system for detecting pneumonia from chest X-ray images using Convolutional Neural Networks (CNNs) and transfer learning.
 
-It focuses on comparing multiple architectures and optimizing performance through fine-tuning and data augmentation.
+The project compares multiple pretrained CNN architectures and evaluates feature extraction and fine-tuning strategies, with data augmentation and regularization techniques used to improve model generalization.
 
 ---
 
 ## 🚀 Tech Stack
-- Python  
-- TensorFlow / Keras  
-- NumPy, Matplotlib  
+
+- Python
+- TensorFlow / Keras
+- NumPy
+- Pandas
+- Matplotlib
 
 ---
 
-## 🧠 Models Implemented
-- VGG16  
-- ResNet50  
-- DenseNet121  
+## 🧠 Models Evaluated
+
+- VGG16
+- ResNet50
+- DenseNet121
 
 ---
 
-## ⚙️ Approach
-- Transfer Learning using pre-trained CNN models  
-- Feature Extraction vs Fine-Tuning comparison  
-- Data Augmentation to improve generalization  
-- Batch Normalization and Dropout for regularization  
+## ⚙️ Methodology
 
----
+- Transfer learning using pretrained CNN architectures
+- Feature extraction and fine-tuning comparison
+- Image preprocessing and normalization
+- Data augmentation for improved generalization
+- Batch normalization and dropout for regularization
+- Model evaluation using accuracy, precision, recall, and F1-score
+
+--- 
 
 ## 🏆 Final Model Performance
 - **Validation Accuracy:** 96.5%  
@@ -75,7 +81,6 @@ To build a reliable deep learning model for early detection of pneumonia from me
 - Use EfficientNet / ensemble models  
 - Add explainability (Grad-CAM)  
 
----
 
 ## 📬 Contact
 - LinkedIn: https://www.linkedin.com/in/ayushman-singh-444902283/
